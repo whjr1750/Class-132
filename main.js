@@ -9,7 +9,7 @@ function setup(){
 	canvas = createCanvas(640, 420);
 	canvas.center();
 	objectDetector=ml5.objectDetector('cocossd', modelloaded);
-	document.getElementbyId("status").innerHTML="status: detecting objects";
+	document.getElementById("status").innerHTML="status: detecting objects";
 }
 
 function modelloaded(){
